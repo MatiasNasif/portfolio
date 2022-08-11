@@ -13,14 +13,13 @@ const NavBar = () => {
   
      <Navbar bg="light" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand>Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
 
-            <Nav.Link href="#home">Proyectos</Nav.Link>
-            <Nav.Link href="#link">Sobre Mí</Nav.Link>
-            <Nav.Link href="#link">Contáctame</Nav.Link>
+            <Nav.Link href="#projects">Proyectos</Nav.Link>
+            <Nav.Link href="#aboutMe">Sobre Mí</Nav.Link>
+            <Nav.Link href="#contact">Contáctame</Nav.Link>
             
           </Nav>
         </Navbar.Collapse>

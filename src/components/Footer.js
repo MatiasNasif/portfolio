@@ -4,7 +4,7 @@ import iconMail from "../assets/iconMail.svg";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="contact">
       <h5>¿Estás interesado en mi perfil?</h5>
       <h3>Trabajemos juntos</h3>
       <div className="links-footer">

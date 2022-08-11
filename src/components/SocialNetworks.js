@@ -4,7 +4,7 @@ import iconGithub from "../assets/iconGithub.svg"
 
 const SocialNetworks = () => {
   return (
-    <div className="social-container">
+    <div className="social-container" id="projects">
 
         <a href="https://drive.google.com/file/d/12GZyEkOQ-vdSojgpf3Wf6uZk2ZOOXci6/view?usp=sharing" target="_blank">Descargar CV
         <img src={iconDownload} alt="icon download" style={{width: "25px", background:"white", borderRadius:"50%", marginLeft: "0.5rem", padding:"3px"}} />
