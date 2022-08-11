@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title-container {
+  color: white;
+  position: relative;
+  z-index: 1;
+  line-height: 7.8rem;
+  letter-spacing: 0.08em;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.name-title {
+  font-size: 4.2rem;
+}
+
+.stack-title {
+  font-size: 1.4rem;
+  color: #0077b6;
+}
+
+.button-title {
+  background-color: #0077b6;
+  color: #f4f4f4;
+  border: none;
+  padding: 1rem 1rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+  white-space: nowrap;
+  height: fit-content;
+  cursor: pointer;
+  align-items: center;
+  width: fit-content;
+}
+
+.social-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: flex-end;
+  padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.social-container a {
+  padding: 0.5rem 0;
+}
+
+.information-container {
+  position: relative;
+  z-index: 1;
+}
+
+.information-container h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+.information-container p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #f4f4f4;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 16px;
+}
+
+.information-container a {
+  display: flex;
+  justify-content: center;
+}
+
+.button-projects {
+  background-color: #0077b6;
+  color: #f4f4f4;
+  border: none;
+  padding: 1rem 0.7rem;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+  white-space: nowrap;
+  height: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.image-container {
+  position: relative;
+  z-index: 1;
+  background-color: #f4f4f4;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 3rem;
+}
+
+.about-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.about-container h3 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.about-container p {
+  font-size: 1.2    rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+  padding: 16px;
+}
+
+.footer-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+}
+
+.footer-container h5{
+    font-size: 1.1rem;
+}
+
+.footer-container h3{
+    font-size: 2.3rem;
+}
