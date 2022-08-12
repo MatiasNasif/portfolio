@@ -1,5 +1,6 @@
 import descarga from "../assets/descarga.svg";
 import iconRight from "../assets/iconRight.svg";
+import { motion } from "framer-motion"
 
 const Projects = () => {
   return (
@@ -17,7 +18,11 @@ const Projects = () => {
           alt="globant-projects"
           target="_blank"
         >
-          <button className="button-projects">
+          <motion.button 
+          initial={{x:0}}
+          whileTap={{x:"+100vw"}}
+          transition={{type: "spring", stiffness:120}} 
+          className="button-projects">
             Conocer más
             <img
               src={iconRight}
@@ -29,7 +34,7 @@ const Projects = () => {
               }}
               alt="logo flecha"
             />
-          </button>
+          </motion.button>
         </a>
       </div>
       <div className="image-container">
@@ -48,7 +53,11 @@ const Projects = () => {
           alt="eccomerce-projects"
           target="_blank"
         >
-          <button className="button-projects">
+          <motion.button 
+          initial={{x:0}}
+          whileTap={{x:"+100vw"}}
+          transition={{type: "spring", stiffness:120}} 
+          className="button-projects">
             Conocer más
             <img
               src={iconRight}
@@ -60,7 +69,7 @@ const Projects = () => {
               }}
               alt="logo flecha"
             />
-          </button>
+          </motion.button>
         </a>
       </div>
       <div className="image-container">
@@ -80,7 +89,11 @@ const Projects = () => {
           alt="tmdb-projects"
           target="_blank"
         >
-          <button className="button-projects">
+          <motion.button 
+          initial={{x:0}}
+          whileTap={{x:"+100vw"}}
+          transition={{type: "spring", stiffness:120}} 
+          className="button-projects">
             Conocer más
             <img
               src={iconRight}
@@ -92,7 +105,7 @@ const Projects = () => {
               }}
               alt="logo flecha"
             />
-          </button>
+          </motion.button>
         </a>
       </div>
       <div className="image-container">

@@ -2,15 +2,20 @@ import logo from "../assets/logo.svg";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { motion } from "framer-motion"
 
 const NavBar = () => {
   return (
-    <div clasName="navbar" id="home">
+    <header id="home">
+    <div clasName="navbar">
       <Navbar expand="lg" fixed="top">
         <Container>
           <Navbar.Brand>
             <a href="#home">
-              <img
+              <motion.img
+                initial={{y: -250}}
+                animate={{y: 0}}
+                transition={{type: "spring", stiffness:120}}
                 src={logo}
                 style={{
                   width: "35px",
@@ -30,6 +35,7 @@ const NavBar = () => {
         </Container>
       </Navbar>
     </div>
+    </header>
   );
 };
 

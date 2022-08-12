@@ -2,12 +2,15 @@ import React from "react";
 import iconWhattsap from "../assets/iconWhattsap.svg";
 import iconMail from "../assets/iconMail.svg";
 import iconUp from "../assets/iconUp.svg";
+import { motion } from "framer-motion"
 
 const Footer = () => {
   return (
-    <div className="footer-container" id="contact">
+    <footer id="contact">
+    <div className="footer-container">
       <a href="#home">
-        <img
+        <motion.img
+          whileTap ={{scale:1.5, background:"#0077b6"}}
           src={iconUp}
           style={{
             width: "35px",
@@ -21,7 +24,8 @@ const Footer = () => {
       <h3>Trabajemos juntos</h3>
       <div className="links-footer">
         <a href="https://wa.me/+5491165761087" target="_blank">
-          <img
+          <motion.img
+            whileTap ={{scale:1.5, background:"#0077b6"}}
             src={iconWhattsap}
             alt="icon-wattsap"
             style={{
@@ -37,7 +41,8 @@ const Footer = () => {
           href="https://mail.google.com/mail/?view=cm&fs=1&to=matiasezequielnasif@gmail.com"
           target="_blank"
         >
-          <img
+          <motion.img
+           whileTap ={{scale:1.5, background:"#0077b6"}}
             src={iconMail}
             alt="icon-wattsap"
             style={{
@@ -51,6 +56,7 @@ const Footer = () => {
         </a>
       </div>
     </div>
+    </footer>
   );
 };
 
