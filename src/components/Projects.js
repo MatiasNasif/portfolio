@@ -1,4 +1,6 @@
-import descarga from "../assets/descarga.svg";
+import globantImg from "../assets/globantLogo.png"
+import ecommerceImg from "../assets/ecommerceLogo.png"
+import movieImg from "../assets/moviedbLogo.png"
 import iconRight from "../assets/iconRight.svg";
 import { motion } from "framer-motion"
 
@@ -14,7 +16,7 @@ const Projects = () => {
           Redux
         </p>
         <a
-          href="https://github.com/MatiasNasif/HorneroApp"
+          href="https://github.com/MatiasNasif/Hornero-App"
           alt="globant-projects"
           target="_blank"
         >
@@ -38,7 +40,7 @@ const Projects = () => {
         </a>
       </div>
       <div className="image-container">
-        <img src={descarga} />
+        <img src={globantImg} />
       </div>
 
       <div className="information-container">
@@ -49,7 +51,7 @@ const Projects = () => {
           • PostgreSQL • Sequelize • Express • React • NodeJS • Redux
         </p>
         <a
-          href="https://github.com/MatiasNasif/e-commerce-2022"
+          href="https://github.com/MatiasNasif/e-commerce"
           alt="eccomerce-projects"
           target="_blank"
         >
@@ -73,7 +75,7 @@ const Projects = () => {
         </a>
       </div>
       <div className="image-container">
-        <img src={descarga} />
+        <img src={ecommerceImg} />
       </div>
 
       <div className="information-container">
@@ -85,7 +87,7 @@ const Projects = () => {
           Express • React • NodeJS • Redux
         </p>
         <a
-          href="https://github.com/MatiasNasif/"
+          href="https://github.com/MatiasNasif/Movie-DB"
           alt="tmdb-projects"
           target="_blank"
         >
@@ -109,7 +111,7 @@ const Projects = () => {
         </a>
       </div>
       <div className="image-container">
-        <img src={descarga} />
+        <img src={movieImg} />
       </div>
     </>
   );
