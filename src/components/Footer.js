@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer id="contact">
     <div className="footer-container">
-      <a href="#home">
+      <a href="#home" className="iconUp">
         <motion.img
           whileTap ={{scale:1.5, background:"#0077b6"}}
           src={iconUp}
