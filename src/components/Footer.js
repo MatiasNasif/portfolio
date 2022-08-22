@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer-container">
       <a href="#home" className="iconUp">
         <motion.img
-          whileTap ={{scale:1.5, background:"#0077b6"}}
+          whileTap ={{scale:1.5, background:"#ffc700"}}
           src={iconUp}
           style={{
             width: "35px",
@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="links-footer">
         <a href="https://wa.me/+5491165761087" target="_blank">
           <motion.img
-            whileTap ={{scale:1.5, background:"#0077b6"}}
+            whileTap ={{scale:1.5, background:"#ffc700"}}
             src={iconWhattsap}
             alt="icon-wattsap"
             style={{
@@ -42,7 +42,7 @@ const Footer = () => {
           target="_blank"
         >
           <motion.img
-           whileTap ={{scale:1.5, background:"#0077b6"}}
+           whileTap ={{scale:1.5, background:"#ffc700"}}
             src={iconMail}
             alt="icon-wattsap"
             style={{
