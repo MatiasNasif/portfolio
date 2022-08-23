@@ -1,6 +1,6 @@
-import globantImg from "../assets/hornero-app-logo.jpg"
-import ecommerceImg from "../assets/ecommerce-logo.jpg"
-import movieImg from "../assets/cinema-logo.jpg"
+import globantImg from "../assets/hornero-app-logo.png"
+import ecommerceImg from "../assets/ecommerce-logo.png"
+import movieImg from "../assets/cinema-logo.png"
 import iconRight from "../assets/iconRight.svg";
 import { motion } from "framer-motion"
 
@@ -19,6 +19,7 @@ const Projects = () => {
           href="https://github.com/MatiasNasif/Hornero-App"
           alt="globant-projects"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <motion.button 
           initial={{x:0}}
@@ -40,7 +41,7 @@ const Projects = () => {
         </a>
       </div>
       <div className="image-container">
-        <img src={globantImg} />
+        <img src={globantImg} alt="globant-logo"/>
       </div>
 
       <div className="information-container">
@@ -54,6 +55,7 @@ const Projects = () => {
           href="https://github.com/MatiasNasif/e-commerce"
           alt="eccomerce-projects"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <motion.button 
           initial={{x:0}}
@@ -75,7 +77,7 @@ const Projects = () => {
         </a>
       </div>
       <div className="image-container">
-        <img src={ecommerceImg} />
+        <img src={ecommerceImg} alt="ecommerce-logo"/>
       </div>
 
       <div className="information-container">
@@ -90,6 +92,7 @@ const Projects = () => {
           href="https://github.com/MatiasNasif/Movie-DB"
           alt="tmdb-projects"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <motion.button 
           initial={{x:0}}
@@ -111,7 +114,7 @@ const Projects = () => {
         </a>
       </div>
       <div className="image-container">
-        <img src={movieImg} />
+        <img src={movieImg} alt="movie-logo"/>
       </div>
     </>
   );
