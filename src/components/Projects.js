@@ -1,7 +1,6 @@
 import globantImg from "../assets/hornero-app-logo.jpg"
 import ecommerceImg from "../assets/ecommerce-logo.jpg"
 import movieImg from "../assets/cinema-logo.jpg"
-import movieScreen from "../assets/moviedbLogo.png"
 import iconRight from "../assets/iconRight.svg";
 import { motion } from "framer-motion"
 
