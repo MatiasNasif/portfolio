@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="about-container" id="aboutMe">
+    <div className="about-container">
       <h3>Sobre Mí</h3>
       <p>
         Haber alcanzado los objetivos como emprendedor, dueño de un negocio

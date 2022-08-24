@@ -1,7 +1,6 @@
 import iconDownload from "../assets/iconDownload.svg"
 import iconLinkedin from "../assets/iconLinkedin.svg"
 import iconGithub from "../assets/iconGithub.svg"
-import { motion } from "framer-motion"
 
 const SocialNetworks = () => {
   return (

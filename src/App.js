@@ -7,6 +7,7 @@ import SocialNetworks from './components/SocialNetworks';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
+import Skills from './components/Skills';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <SocialNetworks/>
     <Projects/>
     <AboutMe/>
+    <Skills/>
     <Footer/>
     </div>
   );
