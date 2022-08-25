@@ -6,15 +6,15 @@ const SocialNetworks = () => {
   return (
     <div className="social-container" id="projects">
         
-        <a href="https://drive.google.com/file/d/12GZyEkOQ-vdSojgpf3Wf6uZk2ZOOXci6/view?usp=sharing" target="_blank">Descargar CV
+        <a href="https://drive.google.com/file/d/12GZyEkOQ-vdSojgpf3Wf6uZk2ZOOXci6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Descargar CV
         <img src={iconDownload} alt="icon download" style={{width: "25px", background:"white", borderRadius:"50%", marginLeft: "0.5rem", padding:"3px"}} />
         </a>
 
-        <a href="https://www.linkedin.com/in/matiasnasif/" target="_blank">Linkedin
+        <a href="https://www.linkedin.com/in/matiasnasif/" target="_blank" rel="noopener noreferrer">Linkedin
         <img src={iconLinkedin} alt="icon linkedin" style={{width: "25px", background:"white", borderRadius:"50%", marginLeft: "0.5rem", padding:"3px"}} />
         </a>
 
-        <a href="https://github.com/MatiasNasif" target="_blank">GitHub
+        <a href="https://github.com/MatiasNasif" target="_blank" rel="noopener noreferrer">GitHub
         <img src={iconGithub} alt="icon github" style={{width: "25px", background:"white", borderRadius:"50%", marginLeft: "0.5rem", padding:"3px"}} />
         </a>
 

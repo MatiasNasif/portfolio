@@ -2,7 +2,8 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="about-container">
+    <div id="aboutMe">
+      <div className="about-container">
       <h3>Sobre Mí</h3>
       <p>
         Haber alcanzado los objetivos como emprendedor, dueño de un negocio
@@ -14,6 +15,8 @@ const AboutMe = () => {
         seguir creciendo en esta nueva carrera profesional.
       </p>
     </div>
+    </div>
+    
   );
 };
 
