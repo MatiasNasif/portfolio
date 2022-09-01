@@ -11,7 +11,7 @@ const Projects = () => {
         <h3>Hornero App</h3>
         <p>
           Desarrollé una aplicación móvil junto con un equipo de 5 personas como
-          práctica profesional en Globant. Implementamos ágil y accesibilidad a
+          práctica profesional en Globant. Implementamos metodologías ágiles y accesibilidad a
           un nivel WCAG AA. Tecnologías. • React • Express • MongoDB • NodeJS •
           Redux
         </p>

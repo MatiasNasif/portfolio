@@ -4,19 +4,17 @@ const AboutMe = () => {
   return (
     <div id="aboutMe">
       <div className="about-container">
-      <h3>Sobre Mí</h3>
-      <p>
-        Haber alcanzado los objetivos como emprendedor, dueño de un negocio
-        desde hace 7 años, pude construir una base sólida logrando un equilibrio
-        económico y autonomía laboral. Como empleador, coordinar un grupo de
-        trabajo confiable y siempre a disposición, gracias a ellos he decidido
-        retomar mi pasión por la tecnología. Hoy busco un nuevo desafío en mi
-        vida encontrando mi primer trabajo en la industria con el objetivo de
-        seguir creciendo en esta nueva carrera profesional.
-      </p>
+        <h3>Sobre Mí</h3>
+        <p>
+          Mi nombre es Matias y soy Full Stack Developer. Hace poco tiempo
+          terminé un bootcamp intensivo de 3 meses donde desarrollé 3 proyectos
+          con metodologías ágiles. Cuento con la capacidad necesaria para seguir
+          adquiriendo conocimientos en poco tiempo y crecer en mi carrera
+          profesional. Además soy estudiante de una Tecnicatura Superior en
+          Programación y mi título de secundario es de Técnico en Informática.
+        </p>
+      </div>
     </div>
-    </div>
-    
   );
 };
 
