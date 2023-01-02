@@ -89,7 +89,7 @@ const Projects = () => {
           Express • React • NodeJS • Redux
         </p>
         <a
-          href="https://github.com/MatiasNasif/Movie-DB"
+          href="https://github.com/MatiasNasif/DB-Movie"
           alt="tmdb-projects"
           target="_blank"
           rel="noopener noreferrer"
