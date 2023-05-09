@@ -6,7 +6,7 @@ const SocialNetworks = () => {
   return (
     <div className="social-container" id="projects">
         
-        <a href="https://drive.google.com/file/d/1rEnKxrybkttIqHKfmDSfXhrsGnQemz3w/view?usp=share_link" target="_blank" rel="noopener noreferrer">Descargar CV
+        <a href="https://drive.google.com/file/d/1P0Mt8114Mrk7oXYlN8ZugLawiZ9TfT3m/view?usp=share_link" target="_blank" rel="noopener noreferrer">Descargar CV
         <img src={iconDownload} alt="icon download" style={{width: "25px", background:"white", borderRadius:"50%", marginLeft: "0.5rem", padding:"3px"}} />
         </a>
 
