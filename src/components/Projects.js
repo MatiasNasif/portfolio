@@ -19,7 +19,7 @@ const Projects = () => {
           (JWT) • Docker • Amazon Web Services (AWS) • Cypress
         </p>
         <a
-          href="https://github.com/MatiasNasif/DB-Movie"
+          href="https://github.com/MatiasNasif/Fast-delivery"
           alt="fast-delivery-projects"
           target="_blank"
           rel="noopener noreferrer"
