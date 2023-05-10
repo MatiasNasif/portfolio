@@ -328,6 +328,10 @@
     margin-bottom: 20%;
   }
 
+  .information-container {
+    margin-left: 10%;
+  }
+
   .button-projects {
     padding: 0.3rem 0.5rem;
   }
