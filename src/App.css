@@ -31,6 +31,10 @@
   margin-top: 260px;
 }
 
+.text-logo {
+  color: var(--secondary-color);
+}
+
 @media screen and (min-width: 800px) {
   .title-container {
     margin-bottom: 150px;
@@ -317,7 +321,6 @@
   }
 }
 
-
 .title-skills {
   position: relative;
   z-index: 1;
@@ -331,7 +334,14 @@
   z-index: 1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  /* justify-items: center; */
+}
+
+.box-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-container img {
@@ -365,7 +375,6 @@
   background: var(--primary-color);
   box-shadow: 0 0 35px var(--primary-color);
 }
-
 
 .footer-container h5 {
   font-family: "Roboto Mono", monospace;
